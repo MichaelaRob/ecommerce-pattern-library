@@ -4,6 +4,16 @@
   --color-secondary-light: #ECE3D8;
 
   --font-primary: "Lato", sans-serif;
+
+  --h1-primary:
+  --h2-primary:
+  --h3-primary:
+  --h4-primary:
+  --h5-primary:
+
+  --ol-primary:
+  --ul-primary:
+  --a-primary:
 }
 
 html {
