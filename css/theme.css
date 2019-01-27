@@ -4,16 +4,12 @@
   --color-secondary-light: #ECE3D8;
 
   --font-primary: "Lato", sans-serif;
+  --font-bold: 900;
+  --font-medium: 400;
+  --font-light: 300;
 
-  --h1-primary:
-  --h2-primary:
-  --h3-primary:
-  --h4-primary:
-  --h5-primary:
+  --border-weight: 2px;
 
-  --ol-primary:
-  --ul-primary:
-  --a-primary:
 }
 
 html {
