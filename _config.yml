@@ -6,6 +6,14 @@ patternbot:
   description: |
     Minimalist jewelry collection meant for everyday wear.
   font_url: "https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+  colors:
+    accent: "--color-primary"
+    patterns:
+      brand.logos: "--color-secondary"
   rationales:
     typefaces.primary: |
       Lato was selected for the easy readability and the simplicity of the style. The rounded edges of the font present as more casual to the viewer and represent the brand's casual nature. Lato is to be used throughout the entire website.
+    colors.primary: |
+      Keeping with the clean cut, minimalist style of the brand, the primary colours are black and white to convey simplicity. These two colours should be used for all text elements.
+    colors.secondary: |
+      The two secondary colours are neutrals meant to keep with the simplistic theme of the brand while adding some aspect of colour. These colours should be used for highlighting different sections of the website such as forms and cards that are not represented with an image for the background.
