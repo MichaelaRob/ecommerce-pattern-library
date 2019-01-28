@@ -2,4 +2,10 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "J'Adorn"
+  description: |
+    Minimalist jewelry collection meant for everyday wear.
   font_url: "https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+  rationales:
+    typefaces.primary: |
+      Lato was selected for the easy readability and the simplicity of the style. The rounded edges of the font present as more casual to the viewer and represent the brand's casual nature. Lato is to be used throughout the entire website.
