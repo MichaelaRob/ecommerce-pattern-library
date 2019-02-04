@@ -55,3 +55,7 @@ h5 {
 nav {
   font-weight: var(--font-light);
 }
+
+ul {
+  list-style-type: none;
+}
