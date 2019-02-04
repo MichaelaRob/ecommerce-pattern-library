@@ -2,6 +2,11 @@
   background-color: transparent;
   border-color: var(--color-primary);
   color: var(--color-primary);
+  border-radius: 0;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+
 }
 
 .btn:hover {
@@ -28,7 +33,6 @@
 }
 
 .btn-light:hover {
-  opacity: 0.3;
   background-color: var(--color-secondary);
   border-color: #fff;
   color: #fff;
