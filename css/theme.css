@@ -4,9 +4,9 @@
   --color-secondary-light: #ECE3D8;
 
   --font-primary: "Lato", sans-serif;
-  --font-bold: 900;
-  --font-medium: 400;
-  --font-light: 300;
+  --weight-bold: 900;
+  --weight-medium: 400;
+  --weight-light: 300;
 
   --border-weight: 2px;
 }
@@ -16,27 +16,27 @@ html {
 }
 
 h1 {
-  font-weight: var(--font-bold);
+  font-weight: var(--weight-bold);
   color: var(--color-primary);
 }
 
 h2 {
-  font-weight: var(--font-bold);
+  font-weight: var(--weight-bold);
   color: var(--color-primary);
 }
 
 h3 {
-  font-weight: var(--font-bold);
+  font-weight: var(--weight-bold);
   color: var(--color-primary);
 }
 
 h4 {
-  font-weight: var(--font-medium);
+  font-weight: var(--weight-medium);
   color: var(--color-primary);
 }
 
 h5 {
-  font-weight: var(--font-medium);
+  font-weight: var(--weight-medium);
   color: var(--color-primary);
 }
 
@@ -44,7 +44,7 @@ h5 {
   color: var(--color-primary);
   border-weight: var(--border-weight);
   background-color: none;
-  font-weight: var(--font-medium);
+  font-weight: var(--weight-medium);
 }
 
 .btn:hover {
@@ -53,7 +53,7 @@ h5 {
 }
 
 nav {
-  font-weight: var(--font-light);
+  font-weight: var(--weight-light);
 }
 
 ul {
@@ -62,4 +62,9 @@ ul {
 
 a {
   color: var(--color-primary);
+}
+
+mark {
+  background-color: var(--color-secondary);
+  color: #fff;
 }
