@@ -1,0 +1,17 @@
+title: "Cards"
+description: |
+  Cards should be used to showcase images and call to actions.
+
+patterns:
+  product-card:
+    title: "Product"
+    description: |
+      This type of card is used as a link to go shop for a particular product. This card is used to denote specific groups of products.
+  shop-new:
+    title: "Shop New"
+    description: |
+      This card is used as a banner. The image spreads as wide as the screen and has a call to action promoting to shop the new collection.
+  square-card:
+    title: "Square Card"
+    description: |
+      This card is used as a product image with no text or buttons on top of it. This card showcases an image of the particular product and has a price listed below.
