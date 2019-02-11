@@ -27,3 +27,8 @@
 .is-validated:invalid + label + .error-message {
   display: block;
 }
+
+.input {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
