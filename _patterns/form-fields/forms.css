@@ -28,7 +28,13 @@
   display: block;
 }
 
-.input {
+.input, .input:not([type="checkbox"]) {
   background-color: var(--color-secondary);
   color: #fff;
+  border-color: var(--color-secondary);
+  opacity: 0.8;
+  width: 350px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

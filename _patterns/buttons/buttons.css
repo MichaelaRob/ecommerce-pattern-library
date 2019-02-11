@@ -29,11 +29,12 @@
 
 .btn-light {
   background-color: transparent;
-  color: var(--color-primary);
+  color: var(--color-secondary);
+  border-color: var(--color-secondary);
 }
 
 .btn-light:hover {
-  background-color: var(--color-secondary);
+  background-color: var(--color-secondary-light);
   border-color: #fff;
-  color: #fff;
+  color: var(--color-secondary);
 }
