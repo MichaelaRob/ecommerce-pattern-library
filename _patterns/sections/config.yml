@@ -1,0 +1,13 @@
+title: "Sections"
+description: |
+  Sections should be used to convey information about the company and to lead the viewer to buy products.
+
+patterns:
+  simple-section:
+    title: "Simple Section"
+    description: |
+      Simple section should be used when the sectio only includes text information and no buttons or links.
+  section-button:
+    title: "Section with Buttons"
+    description: |
+      The section with buttons is to be used when the section requires buttons with links to lead the viewer to another area of the website. This can link to different categories of products and to other pages in general.
