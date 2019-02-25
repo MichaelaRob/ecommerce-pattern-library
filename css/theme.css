@@ -5,6 +5,7 @@
   --color-white: #fff;
 
   --font-primary: "Lato", sans-serif;
+  --font-secondary: "Dancing Script", cursive;
   --weight-bold: 900;
   --weight-medium: 400;
   --weight-light: 300;
@@ -63,6 +64,7 @@ ul {
 
 a {
   color: var(--color-primary);
+  text-decoration: none;
 }
 
 a:hover{
