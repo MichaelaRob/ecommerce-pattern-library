@@ -11,10 +11,21 @@ patterns:
     fields:
     - name: heading
       type: string
-      example: "Brilliant, stunning, bright"
+      example: "Shop new"
     - name: text
       type: string
-      example: "Geological marvels: gems, crystals, diamonds, geodes"
+      example: "New pieces are added each month to keep our inventory fresh."
+    - name: image
+      type: string
+      example: "layered-necklaces"
+    - name: button_text
+      type: string
+      example: "Shop now"
+      required: false
+    - name: button_url
+      type: url
+      example: "/Shop now/"
+      required: false
     title: "Shop New"
     description: |
       This card is used as a banner. The image spreads as wide as the screen and has a call to action promoting to shop the new collection.
