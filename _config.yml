@@ -15,3 +15,5 @@ patternbot:
       Keeping with the clean cut, minimalist style of the brand, the primary colours are black and white to convey simplicity. These two colours should be used for all text elements.
     colors.secondary: |
       The two secondary colours are neutrals meant to keep with the simplistic theme of the brand while adding some aspect of colour. These colours should be used for highlighting different sections of the website such as forms and cards that are not represented with an image for the background.
+    layouts: |
+      The default layout should be used for almost every page, it includes the website's primary header and footer.
