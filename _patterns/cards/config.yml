@@ -8,6 +8,13 @@ patterns:
     description: |
       This type of card is used as a link to go shop for a particular product. This card is used to denote specific groups of products.
   shop-new:
+    fields:
+    - name: heading
+      type: string
+      example: "Brilliant, stunning, bright"
+    - name: text
+      type: string
+      example: "Geological marvels: gems, crystals, diamonds, geodes"
     title: "Shop New"
     description: |
       This card is used as a banner. The image spreads as wide as the screen and has a call to action promoting to shop the new collection.
