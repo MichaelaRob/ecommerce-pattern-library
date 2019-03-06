@@ -4,28 +4,36 @@ description: |
 
 patterns:
   product-card:
+    fields:
+      - name: image
+        type: string
+        example: "rings.jpg"
+      - name: button_text
+        type: string
+        example: "Rings"
+      - name: button_url
+        type: url
+        example: "/rings/"
     title: "Product"
     description: |
       This type of card is used as a link to go shop for a particular product. This card is used to denote specific groups of products.
   shop-new:
     fields:
-    - name: heading
-      type: string
-      example: "Shop new"
-    - name: text
-      type: string
-      example: "New pieces are added each month to keep our inventory fresh."
-    - name: image
-      type: string
-      example: "layered-necklaces"
-    - name: button_text
-      type: string
-      example: "Shop now"
-      required: false
-    - name: button_url
-      type: url
-      example: "/Shop now/"
-      required: false
+      - name: heading
+        type: string
+        example: "Shop new"
+      - name: text
+        type: string
+        example: "New pieces are added each month to keep our inventory fresh."
+      - name: image
+        type: string
+        example: "layered-necklaces.jpg"
+      - name: button_text
+        type: string
+        example: "Shop now"
+      - name: button_url
+        type: url
+        example: "/Shop now/"
     title: "Shop New"
     description: |
       This card is used as a banner. The image spreads as wide as the screen and has a call to action promoting to shop the new collection.
