@@ -5,3 +5,7 @@
 .white-text {
   color: var(--color-white);
 }
+
+.align-right {
+  text-align: right;
+}
