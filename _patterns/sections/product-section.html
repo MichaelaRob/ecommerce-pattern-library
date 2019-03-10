@@ -4,6 +4,8 @@
   <h5>Crystal Collection</h5>
   <p>One simple gold chain with a crystal pendant attached to a twisted gold chain</p>
   <div>
-    {% pattern buttons/basic %}
+    {% if include.button_url %}
+      {% pattern buttons/basic url=include.button_url text=include.button_text %}
+    {% endif %}
   </div>
 </div>

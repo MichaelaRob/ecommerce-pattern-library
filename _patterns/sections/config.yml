@@ -6,7 +6,7 @@ patterns:
   simple-section:
     title: "Simple Section"
     description: |
-      Simple section should be used when the sectio only includes text information and no buttons or links.
+      Simple section should be used when the section only includes text information and no buttons or links.
   section-button:
     fields:
       - name: heading
@@ -24,3 +24,14 @@ patterns:
     title: "Section with Buttons"
     description: |
       The section with buttons is to be used when the section requires buttons with links to lead the viewer to another area of the website. This can link to different categories of products and to other pages in general.
+  product-section:
+    fields:
+      - name: button_text
+        type: string
+        example: "Add to Cart"
+      - name: button_url
+        type: url
+        example: "/Cart/"
+    title: "Product Section"
+    description: |
+      Product section should be used when the user selects a particular product, this provides a more detailed look at the product.
