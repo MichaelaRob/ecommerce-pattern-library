@@ -41,3 +41,9 @@ patterns:
     title: "Square Card"
     description: |
       This card is used as a product image with no text or buttons on top of it. This card showcases an image of the particular product and has a price listed below.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product

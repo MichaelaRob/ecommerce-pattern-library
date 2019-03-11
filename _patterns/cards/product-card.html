@@ -1,5 +1,5 @@
 <div class="card product-card relative">
-  <img class="img-flex" src="/images/{{include.image}}" alt="">
+  <img class="img-flex" src="/images/{{include.data.image}}" alt="">
   <div class="absolute pin-center island">
     {% if include.button_url %}
       {% pattern buttons/ghost url=include.button_url text=include.button_text %}
