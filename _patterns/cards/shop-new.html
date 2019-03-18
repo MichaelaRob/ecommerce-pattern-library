@@ -1,9 +1,11 @@
-<div class="banner layered-necklaces">
-  <img class="img-flex" src="/images/{{include.image}}" alt="">
-  <div class="pin-rc gutter-2">
+<div class="banner relative layered-necklaces push-2">
+  <div>
+    <img class="img-flex" src="/images/{{include.image}}" alt="">
+  </div>
+  <div class="right gutter-2 pad-t-2 absolute pin-rc">
     <h2 class="white-text banner-title">{{include.heading}}</h2>
     <p class="white-text banner-info">{{include.text}}</p>
-    <div>
+    <div class="push-2">
       {% if include.button_url %}
         {% pattern buttons/ghost url=include.button_url text=include.button_text %}
       {% endif %}
