@@ -6,7 +6,7 @@ non_conflict: true
 category: "necklaces"
 image: "/images/pendant-square.jpg"
 price: $28
-collection: "Crystal Collection"
+type: "Crystal Collection"
 colors:
   - "Gold"
 ---

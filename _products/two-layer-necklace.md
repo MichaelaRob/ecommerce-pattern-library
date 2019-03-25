@@ -6,7 +6,7 @@ non_conflict: false
 category: "necklaces"
 image: "/images/necklace-square.jpg"
 price: $24
-collection: "Crystal Collection"
+type: "Crystal Collection"
 colors:
   - "Gold"
 ---
