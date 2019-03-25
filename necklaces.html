@@ -3,8 +3,9 @@ layout: default
 highlight_nav: shop
 ---
 
-{% pattern cards/shop-new heading="Shop Necklaces" text="New pieces are added each month to keep our inventory fresh." image="layered-necklaces.jpg" button_text="Shop now" button_url="/Shop now/" %}
-
+<div>
+  {% pattern cards/shop-new heading="Shop Necklaces" text="New pieces are added each month to keep our inventory fresh." image="layered-necklaces.jpg" button_text="Shop now" button_url="/Shop now/" %}
+</div>
 <div class="grid gutter-2">
   {% for product in site.products %}
   {% if product.category=="necklaces" %}

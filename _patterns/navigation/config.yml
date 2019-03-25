@@ -7,3 +7,7 @@ patterns:
     title: "Main Navigation"
     description: |
       The main navigation should be used at the top of each page to navigate around the website.
+    fields:
+      - name: image
+        type: string
+        example: "j-adorn.svg"
