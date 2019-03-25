@@ -7,10 +7,13 @@
     <p class="push-half">$24</p>
     <h5>Crystal Collection</h5>
     <p>One simple gold chain with a crystal pendant attached to a twisted gold chain</p>
-    <div>
+    <div class="push-2">
       {% if include.button_url %}
       {% pattern buttons/basic url=include.button_url text=include.button_text %}
       {% endif %}
+    </div>
+    <div>
+      {% pattern cards/square-cards-product image="necklace-square.jpg" %}
     </div>
   </div>
 </div>
