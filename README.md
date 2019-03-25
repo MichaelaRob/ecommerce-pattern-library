@@ -21,7 +21,7 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 Netlify URL: https://sharp-poitras-db74d3.netlify.com/pattern-library/#brand
 
 ---
-Copyright notice
+Copyright 2019 Michaela Robinson
 ---
 
 ## Collaborators
