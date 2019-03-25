@@ -22,3 +22,9 @@ Netlify URL: https://sharp-poitras-db74d3.netlify.com/pattern-library/#brand
 
 ---
 Copyright notice
+---
+
+## Collaborators
+
+- [@MichaelaRob](https://github.com/MichaelaRob)
+- [@jiannanolan](https://github.com/jiannanolan)
