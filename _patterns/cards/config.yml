@@ -37,6 +37,14 @@ patterns:
     title: "Shop New"
     description: |
       This card is used as a main banner for each page. The image spreads as wide as the screen and has a call to action promoting to shop the new collection.
+  square-cards-product:
+    fields:
+      - name: image
+        type: string
+        example: "necklace-square.jpg"
+    title: "Square Card Products"
+    description: |
+      This arrangement of cards is used on the product information page to show different images of the product.
   square-card:
     title: "Square Card"
     description: |
@@ -47,11 +55,3 @@ patterns:
         data:
           source: "site.products[0]"
           type: Product
-  square-cards-product:
-    fields:
-      - name: image
-        type: string
-        example: "necklace-square.jpg"
-    title: "Square Card Products"
-      description: |
-        This arrangement of cards is used on the product information page to show different images of the product.
