@@ -26,6 +26,9 @@ patterns:
       The section with buttons is to be used when the section requires buttons with links to lead the viewer to another area of the website. This can link to different categories of products and to other pages in general.
   product-section:
     fields:
+      - name: image
+        type: string
+        example: "necklace.jpg"
       - name: button_text
         type: string
         example: "Add to Cart"

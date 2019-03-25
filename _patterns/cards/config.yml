@@ -47,3 +47,11 @@ patterns:
         data:
           source: "site.products[0]"
           type: Product
+  square-cards-product:
+    title: "Square Card Products"
+        description: |
+          This arrangement of cards is used on the product information page to show different images of the product.
+    fields:
+      - name: image
+        type: string
+        example: "necklace-square.jpg"
