@@ -42,3 +42,17 @@ patterns:
     title: "Cart Total"
     description: |
       Cart total section is used for the order summary on the checkout page. This is where the user will find price details of the product, and the final total due.
+  product-cart:
+    fields:
+      - name: image
+        type: string
+        example: "necklace.jpg"
+      - name: button_text
+        type: string
+        example: "Remove from cart"
+      - name: button_url
+        type: url
+        example: "/Cart/"
+    title: "Product Cart"
+    description: |
+      Product Cart section should be used within the checkout page to summarize products added to cart.
