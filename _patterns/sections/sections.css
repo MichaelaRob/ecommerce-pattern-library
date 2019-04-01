@@ -9,3 +9,7 @@
 .align-right {
   text-align: right;
 }
+
+.padding-left {
+  padding-left: 20px;
+}
