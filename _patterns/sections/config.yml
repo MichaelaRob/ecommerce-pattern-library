@@ -34,7 +34,7 @@ patterns:
         example: "Add to Cart"
       - name: button_url
         type: url
-        example: "/Cart/"
+        example: "/checkout/"
     title: "Product Section"
     description: |
       Product section should be used when the user selects a particular product, this provides a more detailed look at the product. This will be accompanied by a photo of the product.
@@ -42,3 +42,18 @@ patterns:
     title: "Cart Total"
     description: |
       Cart total section is used for the order summary on the checkout page. This is where the user will find price details of the product, and the final total due.
+  product-cart:
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[3]"
+      - name: button_text
+        type: string
+        example: "Remove from cart"
+      - name: button_url
+        type: url
+        example: "/checkout/"
+    title: "Product Cart"
+    description: |
+      Product Cart section should be used within the checkout page to summarize products added to cart.
