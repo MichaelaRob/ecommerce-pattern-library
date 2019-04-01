@@ -1,12 +1,12 @@
 ---
  layout: default
 ---
-<div class="">
-   <h1 class="text-upper">Order Summary</h1>
+<div class="gutter-2">
+   <h1 class="text-upper pad-t-2 push-2">Order Summary</h1>
    <div class="grid">
      <div class="unit xs-1 s-1 m-1 l-1-2">
        {% assign product=site.products[3] %}
-       {% pattern sections/product-cart data=product button_text="Remove from cart" button_url="/checkout/" %}
+       {% pattern sections/product-cart data=product button_text="Delete" button_url="/checkout/" %}
      </div>
      <div class="unit xs-1 s-1 m-1 l-1-2">
        {% pattern sections/cart-total %}
@@ -20,4 +20,3 @@
      {% pattern form-fields/payment-info %}
    </div>
  </div>
-
