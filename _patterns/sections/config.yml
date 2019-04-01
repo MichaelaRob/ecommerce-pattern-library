@@ -34,7 +34,7 @@ patterns:
         example: "Add to Cart"
       - name: button_url
         type: url
-        example: "/Cart/"
+        example: "/cart/"
     title: "Product Section"
     description: |
       Product section should be used when the user selects a particular product, this provides a more detailed look at the product. This will be accompanied by a photo of the product.
