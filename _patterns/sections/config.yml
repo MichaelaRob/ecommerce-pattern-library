@@ -53,7 +53,7 @@ patterns:
         example: "Remove from cart"
       - name: button_url
         type: url
-        example: "/Cart/"
+        example: "/checkout/"
     title: "Product Cart"
     description: |
       Product Cart section should be used within the checkout page to summarize products added to cart.
