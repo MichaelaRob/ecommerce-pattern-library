@@ -7,6 +7,7 @@ category: "necklaces"
 image: "/images/layered-necklaces-square.jpg"
 price: $24
 type: "Chain Collection"
+quantity: 1
 colors:
   - "Gold"
 ---

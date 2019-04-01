@@ -7,6 +7,7 @@ category: "necklaces"
 image: "/images/name-letter-necklace-square.jpg"
 price: $32
 type: "Engravables"
+quantity: 1
 colors:
   - "Gold"
 shape: "Heart"
