@@ -4,16 +4,16 @@
 <div class="gutter-2">
    <h1 class="text-upper pad-t-2 push-2">Order Summary</h1>
    <div class="grid">
-     <div class="unit xs-1 s-1 m-1 l-1-2">
+     <div class="unit gutter-1-2 xs-1 s-1 m-1 l-1-2 push-2">
        {% assign product=site.products[3] %}
-       {% pattern sections/product-cart data=product button_text="Delete" button_url="/checkout/" %}
+       {% pattern sections/product-cart data=product button_text="Delete item" button_url="/checkout/" %}
      </div>
-     <div class="unit xs-1 s-1 m-1 l-1-2">
+     <div class="gutter-1-2 unit xs-1 s-1 m-1 l-1-2 push-2">
        {% pattern sections/cart-total %}
      </div>
    </div>
 
-   <div>
+   <div class="pad-t-2">
      {% pattern form-fields/shipping-info %}
    </div>
    <div>
