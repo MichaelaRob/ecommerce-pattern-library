@@ -3,10 +3,10 @@
     <img class="img-flex" src="/images/{{include.image}}" alt="">
   </div>
   <div class="unit island-2 xs-1 s-1 m-1-2 l-1-2">
-    <h2 class="pad-t-1-2 push-0">Necklace Name</h2>
-    <p class="push-half">$24</p>
-    <h5>Crystal Collection</h5>
-    <p>One simple gold chain with a crystal pendant attached to a twisted gold chain</p>
+    <h2 class="pad-t-1-2 push-0">{{page.name}}</h2>
+    <p class="push-half">{{page.price}}</p>
+    <h5>{{page.type}}</h5>
+    <p>{{page.description}}</p>
     <div class="push-2">
       {% if include.button_url %}
       {% pattern buttons/basic url=include.button_url text=include.button_text %}
