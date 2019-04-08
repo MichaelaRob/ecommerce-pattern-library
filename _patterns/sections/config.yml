@@ -4,6 +4,13 @@ description: |
 
 patterns:
   simple-section:
+    fields:
+      - name: heading
+        type: string
+        example: "Jewelry with sophistication"
+      - name: text
+        type: string
+        example: "Our necklaces are meant to suit all people. Chic pieces that are sure to dress up any outfit. All necklaces are crafted to last through constant wear, hold onto your jewelry longer."
     title: "Simple Section"
     description: |
       Simple section should be used when the section only includes text information and no buttons or links.
@@ -57,11 +64,3 @@ patterns:
     title: "Product Cart"
     description: |
       Product Cart section should be used within the checkout page to summarize products added to cart.
-  bullet-section:
-    fields:
-      - name: heading
-        type: string
-        example: "Service"
-      - name: text
-        type: string
-        example: "Service is the https://super-ecommerce.ca website operated by Super eCommerce"
