@@ -57,3 +57,11 @@ patterns:
     title: "Product Cart"
     description: |
       Product Cart section should be used within the checkout page to summarize products added to cart.
+  bullet-section:
+    fields:
+      - name: heading
+        type: string
+        example: "Service"
+      - name: text
+        type: string
+        example: "Service is the https://super-ecommerce.ca website operated by Super eCommerce"
