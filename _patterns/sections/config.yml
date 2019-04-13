@@ -72,6 +72,11 @@ patterns:
       - name: text
         type: string
         example: "Buy in bulk and save"
-    title: "Product Cart"
+    title: "Promotional Banner"
     description: |
       Promotional Banner should be used when there is a sale or a promotional event.
+  bulk-table:
+    fields:
+    title: "Bulk Table"
+    description: |
+      Bulk table should be used to demonstrate sales on buying bulk items usually found on the sale page.
