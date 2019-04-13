@@ -80,3 +80,17 @@ patterns:
     title: "Bulk Table"
     description: |
       Bulk table should be used to demonstrate sales on buying bulk items usually found on the sale page.
+  email-signup:
+    fields:
+      - name: heading
+        type: string
+        example: "Love our stuff?"
+      - name: text
+        type: string
+        example: "Sign up for our newsletter to be the first to know about our deals and new products."
+      - name: button_text
+        type: string
+        example: "Sign Up"
+      - name: button_url
+        type: url
+        example: ""
