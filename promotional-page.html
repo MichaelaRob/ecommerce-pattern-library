@@ -3,11 +3,13 @@ layout: default
 ---
 {% pattern sections/promo-banner heading="Blowout Prices on Beautiful Jewelry" text="Buy in bulk and save" %}
 <div class="grid">
-  <div class="unit xs-1 s-1 m-1-2 l-1-2">
-    {% pattern cards/shop-new heading="Shop new" text="New pieces are added each month to keep our inventory fresh." image="layered-necklaces.jpg" button_text="Shop now" button_url="/Shop now/" %}
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
+    {% pattern cards/product-card image="necklace.jpg" button_text="Necklaces" button_url="/necklaces/" %}
   </div>
-  <div class="unit xs-1 s-1 m-1-2 l-1-2">
-    {% pattern cards/shop-new heading="Shop new" text="New pieces are added each month to keep our inventory fresh." image="layered-necklaces.jpg" button_text="Shop now" button_url="/Shop now/" %}
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 island">
+    {% pattern cards/product-card image="rings.jpg" button_text="Rings" button_url="/rings/" %}
   </div>
 </div>
-{% pattern sections/bulk-table %}
+<div class=" island-2">
+  {% pattern sections/bulk-table %}
+</div>
