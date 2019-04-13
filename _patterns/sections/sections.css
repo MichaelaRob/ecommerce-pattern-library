@@ -13,3 +13,8 @@
 .padding-left {
   padding-left: 20px;
 }
+
+.promo-banner-bg {
+  background-color: var(--color-secondary);
+  color: #fff;
+}

@@ -64,3 +64,14 @@ patterns:
     title: "Product Cart"
     description: |
       Product Cart section should be used within the checkout page to summarize products added to cart.
+  promo-banner:
+    fields:
+      - name: heading
+        type: string
+        example: "Blowout Prices on Beautiful Jewelry"
+      - name: text
+        type: string
+        example: "Buy in bulk and save"
+    title: "Product Cart"
+    description: |
+      Promotional Banner should be used when there is a sale or a promotional event.
