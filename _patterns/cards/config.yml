@@ -48,7 +48,7 @@ patterns:
   square-card:
     title: "Square Card"
     description: |
-      This card is used as a product image with no text or buttons on top of it. This card showcases an image of the particular product and has a price listed below.
+      This card is used as a product image with no text or buttons on top of it. This card showcases an image of the particular product and has a price listed below. This is usually used on the products list page.
     fields:
       - name: data
         type: object

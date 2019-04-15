@@ -74,7 +74,7 @@ patterns:
         example: "Buy in bulk and save"
     title: "Promotional Banner"
     description: |
-      Promotional Banner should be used when there is a sale or a promotional event.
+      Promotional Banner should be used when there is a sale or a promotional event to indicate to the user that there is a sale.
   bulk-table:
     fields:
     title: "Bulk Table"
@@ -94,3 +94,5 @@ patterns:
       - name: button_url
         type: url
         example: ""
+    description: |
+      E-mail sign up is used to prompt the user to sign up for updates and newsletter through e-mail. This is used as a promotional tactic.
